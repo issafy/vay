@@ -1,0 +1,71 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+#carbonads-container {display:none} [data-anchorjs-icon]::after {content:""} h1[id] {padding-top:0px; margin-top:20px} .zero-clipboard {display:none !important} .bd-content>h2[id]::before, .bd-content>h3[id]::before, .bd-content>h4[id]::before {margin-top:0 !important; height:0rem !important} .bd-home .bd-masthead {padding-top:50px !important} .bd-docs .col-md-9 {flex: 0 0 100% !important} .bd-navbar {display:none !important} .bd-sidebar {display:none !important} .bd-content {right:0px !important; width:100% !important} .bd-toc {display:none !important} .bs-old-docs {display:none} .bd-clipboard {display:none !important} .bs-social {display:none} .bs-sidebar {display:none !important} .bd-docs .col-xl-8 {max-width:none !important} .bd-content>ol, .bd-content>p, .bd-content>ul {max-width:none !important} .bd-docs .bd-content {padding-left:15px !important; padding-top:0 !important} .bd-subnavbar {display:none !important} .bd-layout {display:block !important} .pl-lg-4 {padding-left:0 !important} .bd-intro {padding-top:0 !important} .bd-docs .bd-title {margin-top:10px !important} .col-md-9[role=main] {flex:none !important; width:100% !important; max-width:none !important; padding:0 2rem 1rem !important} .bd-masthead {padding-top:2rem !important} .navbar-fixed-top {position:absolute !important}

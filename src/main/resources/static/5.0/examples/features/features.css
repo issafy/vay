@@ -1,0 +1,63 @@
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: .75rem;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+}
+.icon-link > .bi {
+  margin-top: .125rem;
+  margin-left: .125rem;
+  transition: transform .25s ease-in-out;
+  fill: currentColor;
+}
+.icon-link:hover > .bi {
+  transform: translate(.25rem);
+}
+
+.icon-square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: .75rem;
+}
+
+.rounded-4 { border-radius: .5rem; }
+.rounded-5 { border-radius: 1rem; }
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#carbonads-container {display:none} [data-anchorjs-icon]::after {content:""} h1[id] {padding-top:0px; margin-top:20px} .zero-clipboard {display:none !important} .bd-content>h2[id]::before, .bd-content>h3[id]::before, .bd-content>h4[id]::before {margin-top:0 !important; height:0rem !important} .bd-home .bd-masthead {padding-top:50px !important} .bd-docs .col-md-9 {flex: 0 0 100% !important} .bd-navbar {display:none !important} .bd-sidebar {display:none !important} .bd-content {right:0px !important; width:100% !important} .bd-toc {display:none !important} .bs-old-docs {display:none} .bd-clipboard {display:none !important} .bs-social {display:none} .bs-sidebar {display:none !important} .bd-docs .col-xl-8 {max-width:none !important} .bd-content>ol, .bd-content>p, .bd-content>ul {max-width:none !important} .bd-docs .bd-content {padding-left:15px !important; padding-top:0 !important} .bd-subnavbar {display:none !important} .bd-layout {display:block !important} .pl-lg-4 {padding-left:0 !important} .bd-intro {padding-top:0 !important} .bd-docs .bd-title {margin-top:10px !important} .col-md-9[role=main] {flex:none !important; width:100% !important; max-width:none !important; padding:0 2rem 1rem !important} .bd-masthead {padding-top:2rem !important} .navbar-fixed-top {position:absolute !important}

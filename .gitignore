@@ -1,1 +1,10 @@
-./target
+
+target
+
+
+src/main/resources/static
+src/main/resources/templates
+src/main/webapp
+
+spring-smart-accessories.iml
+nb-actions.iml
