@@ -1,13 +1,7 @@
-# spring-smart-accessories
-# tinyca
-[can/should be done later: redirect route to specific port]
+# Vay
+Vay is a Java E-Commerce Application which purpose is to make managing electronic business sales easy and affordable.
 
-create the ssl certificate and pem and key... files for the app - test - ✅️
+During its development, the emphasis was to make the final product very easy and effortless to use.
 
-redirect to https - test - ✅️
-
-update routes in google, github and facebook consoles - test
-
-github oauth registration method take care of it
-
-facebook oauth registration method take care of it
+<h3 style='color: red'> Current Issues to be resolved !!! </h3>
+The <code>@WebApplicationConfiguerAdapter</code> has been deprecated so new solutions need to be thought of.
